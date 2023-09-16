@@ -1,0 +1,10 @@
+local allowedPlaceID = 12996550309 
+
+local currentPlaceID = tonumber(string.match(game.PlaceId, "%d+"))
+
+if currentPlaceID ~= allowedPlaceID then
+    game:GetService("Players").LocalPlayer:Kick("Game Not Supported")
+else
+    
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iamtheonlyoozy/SurgeHub/main/RunStarSumidassz."))()
+end
