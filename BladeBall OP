@@ -3,7 +3,7 @@ local allowedPlaceID = 13772394625
 local currentPlaceID = tonumber(string.match(game.PlaceId, "%d+"))
 
 if currentPlaceID ~= allowedPlaceID then
-    game:GetService("Players").LocalPlayer:Kick("Tu é doente macaco? ta tentando usar essa script noutro jogo?")
+    game:GetService("Players").LocalPlayer:Kick("It only works in blade ball mate")
 else
     
     loadstring(game:HttpGet("https://raw.githubusercontent.com/iamtheonlyoozy/scriptoozykskkksksk/main/private"))()
